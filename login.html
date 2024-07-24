@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-center">Bhubaneswar Engineering College</div>
+            <div class="navbar-right">
+                <a href="#" class="profile-link">Profile</a>
+            </div>
+        </div>
+    </nav>
+    <div class="login-container">
+        <form class="login-form">
+            <h2>Login</h2>
+            <select id="userType" name="userType" required>
+                <option value="" disabled selected>Select User Type</option>
+                <option value="student">Student Login</option>
+                <option value="teacher">Teacher Login</option>
+            </select>
+            <input type="text" id="regNo" name="regNo" placeholder="Registration No:" required>
+            <input type="password" id="password" name="password" placeholder="Password:" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
